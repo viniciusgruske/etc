@@ -806,7 +806,7 @@ SVGMapElement.prototype.updateLabel = function() {
 			// For light theme
 			style: 'text-shadow: 0px 0px 2px #FFFFFF, 0px 0px 2px #FFFFFF, 0px 0px 4px #FFFFFF, 0px 0px 4px #FFFFFF, 0px 0px 6px #FFFFFF, 0px 0px 6px #FFFFFF, 0px 0px 8px #FFFFFF, 0px 0px 8px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF',
 			// For dark theme
-			// style: 'text-shadow: 0px 0px 2px #2B2B2B, 0px 0px 2px #2B2B2B, 0px 0px 4px #2B2B2B, 0px 0px 4px #2B2B2B, 0px 0px 6px #2B2B2B, 0px 0px 6px #2B2B2B, 0px 0px 6px #2B2B2B, 0px 0px 6px #2B2B2B,
+			// style: 'text-shadow: 0px 0px 2px #2B2B2B, 0px 0px 2px #2B2B2B, 0px 0px 4px #2B2B2B, 0px 0px 4px #2B2B2B, 0px 0px 6px #2B2B2B, 0px 0px 6px #2B2B2B, 0px 0px 6px #2B2B2B, 0px 0px 6px #2B2B2B',
 			background: {
 				fill: '#' + this.map.options.theme.backgroundcolor,
 				/* [EDITED]
