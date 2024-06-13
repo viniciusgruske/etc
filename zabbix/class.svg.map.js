@@ -803,7 +803,7 @@ SVGMapElement.prototype.updateLabel = function() {
 			** This added line adds a soft blur background to the labels:
 			** + style: 'text-shadow: 0px 0px 2px [...],
 			*/
-			style: style: 'text-shadow: 0px 0px 2px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 2px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 4px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 4px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 8px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 8px #' + this.map.options.theme.backgroundcolor,
+			style: 'text-shadow: 0px 0px 2px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 2px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 4px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 4px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 6px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 8px #' + this.map.options.theme.backgroundcolor + ', 0px 0px 8px #' + this.map.options.theme.backgroundcolor,
 			background: {
 				fill: '#' + this.map.options.theme.backgroundcolor,
 				/* [EDITED]
