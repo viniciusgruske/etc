@@ -165,9 +165,14 @@ class SVGMapLink {
 
 				const label_box = document.createElement('div');
 
-				label_box.innerText = link.label;
-				link_row.append(label_box);
-				rows += link_row.outerHTML;
+                                label_box.innerText = link.label;
+                                /* [EDITED]
+                                ** This added line set the label font-family to monspaced.
+                                ** + label_box.style.fontFamily = 'Consolas, monospace';
+                                */
+                                label_box.style.fontFamily = 'Consolas, monospace';
+                                link_row.append(label_box);
+                                rows += link_row.outerHTML;
 			}
 
 			element.element.dataset.hintbox = '1';
