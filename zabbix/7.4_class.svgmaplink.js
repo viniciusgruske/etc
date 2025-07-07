@@ -169,8 +169,10 @@ class SVGMapLink {
                                 /* [EDITED]
                                 ** This added line set the label font-family to monspaced.
                                 ** + label_box.style.fontFamily = 'Consolas, monospace';
+				** + label_box.style.lineHeight = '13px';
                                 */
                                 label_box.style.fontFamily = 'Consolas, monospace';
+			        label_box.style.lineHeight = '13px';
                                 link_row.append(label_box);
                                 rows += link_row.outerHTML;
 			}
