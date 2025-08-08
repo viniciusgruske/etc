@@ -5,5 +5,5 @@ You must copy the file corresponding to your version from this repository and re
 - 7.2: `/usr/share/zabbix/ui/js/vector/`
 - 7.4: `/usr/share/zabbix/ui/js/vector/svgmap`
 
-### Disable label text trim
+### Disable label text trim:
 `sed -i 's/\$trim = true/\$trim = false/g' /usr/share/zabbix/ui/include/items.inc.php`
